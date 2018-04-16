@@ -7,7 +7,7 @@ sudo apt-get update
 sudo apt-get install -y docker-engine
 sudo systemctl enable docker
 sudo systemctl start docker
-sudo usermod -aG docker bomberman
+sudo usermod -aG docker <username>
 
 # run jenkins
 sudo mkdir -p /var/jenkins_home
